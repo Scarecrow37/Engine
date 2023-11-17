@@ -1,7 +1,8 @@
 ﻿#pragma once
 
-class World
+class UWorld
 {
 public:
-    
+    UWorld();
+    virtual ~UWorld();
 };

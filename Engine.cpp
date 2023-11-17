@@ -1,6 +1,34 @@
+﻿#include "Engine.h"
+#include "World.h"
 
-int main(int argc, char* argv[])
+Engine::Engine()
 {
-    
-    return 0;
+    IsRunning = true;
+}
+
+Engine::~Engine()
+{
+}
+
+void Engine::Initialize()
+{
+}
+
+void Engine::Run()
+{
+    while (IsRunning)
+    {
+        //Input
+        //Tick
+        //Render
+    }
+}
+
+void Engine::Stop()
+{
+    IsRunning = false;
+}
+
+void Engine::Terminate()
+{
 }
